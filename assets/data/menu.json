@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "icon": "home",
+    "title": "Inicio",
+    "route": "/home"
+  },
+  {
+    "id": 2,
+    "icon": "hymns",
+    "title": "Himnos Congregacionales",
+    "route": "/hymns"
+  },
+  {
+    "id": 3,
+    "icon": "hymns_specials",
+    "title": "Himnos Especiales",
+    "route": "/hymns_specials"
+  },
+  {
+    "id": 4,
+    "icon": "hymns",
+    "title": "Coros",
+    "route": "/choruses"
+  },
+  {
+    "id": 5,
+    "icon": "hymns",
+    "title": "Mandamientos",
+    "route": "/commandments"
+  },
+  {
+    "id": 6,
+    "icon": "hymns",
+    "title": "Lemas y Pensamientos",
+    "route": "/slogans_thoughts"
+  },
+  {
+    "id": 7,
+    "icon": "donation",
+    "title": "Donativo",
+    "route": "/donation"
+  },
+  {
+    "id": 8,
+    "icon": "about",
+    "title": "Acerca de",
+    "route": "/about"
+  }
+]

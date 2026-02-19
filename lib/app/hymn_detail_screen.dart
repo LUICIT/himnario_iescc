@@ -11,19 +11,8 @@ import 'package:just_audio_background/just_audio_background.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
 import 'package:path_provider/path_provider.dart';
 
+import '../classes/tack_option.dart';
 import '../model/hym.dart';
-
-class TrackOption {
-  final String key; // audio_1, audio_2, audio_3
-  final String label;
-  final String assetPath;
-
-  TrackOption({
-    required this.key,
-    required this.label,
-    required this.assetPath,
-  });
-}
 
 class HymnDetailScreen extends StatefulWidget {
   final Hymn hymn;
@@ -40,6 +29,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   Uri? _artUri;
 
   bool _fullScreen = false;
+  double _lyricsFontSize = 16;
   Set<String> _assetManifestPaths = const {};
   bool _manifestLoaded = false;
   bool _initialLoading = true;
@@ -320,6 +310,69 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     }
   }
 
+  void _openFontSizeSheet() {
+    showModalBottomSheet<void>(
+      context: context,
+      useSafeArea: true,
+      showDragHandle: true,
+      builder: (ctx) {
+        double temp = _lyricsFontSize;
+
+        return StatefulBuilder(
+          builder: (ctx, setModalState) {
+            return Padding(
+              padding: const EdgeInsets.fromLTRB(16, 12, 16, 24),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text(
+                    'Tamaño de letra',
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+                  ),
+                  const SizedBox(height: 12),
+                  Row(
+                    children: [
+                      const Text('A'),
+                      Expanded(
+                        child: Slider(
+                          min: 12,
+                          max: 28,
+                          divisions: 16,
+                          value: temp,
+                          label: temp.round().toString(),
+                          onChanged: (v) {
+                            setModalState(() => temp = v);
+                            setState(() => _lyricsFontSize = v);
+                          },
+                        ),
+                      ),
+                      const Text(
+                        'A',
+                        style: TextStyle(
+                          fontSize: 22,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 8),
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: Text(
+                      '${temp.round()} px',
+                      style: TextStyle(color: Colors.black.withAlpha(153)),
+                    ),
+                  ),
+                ],
+              ),
+            );
+          },
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final hymn = widget.hymn;
@@ -367,8 +420,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                           child: Text(
                             hymn.content.lyrics,
                             textAlign: TextAlign.center,
-                            style: const TextStyle(
-                              fontSize: 16,
+                            style: TextStyle(
+                              fontSize: _lyricsFontSize,
                               height: 1.4,
                             ),
                           ),
@@ -392,6 +445,17 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 ),
               ),
             ),
+          Positioned(
+            bottom: 20,
+            right: 16,
+            child: SafeArea(
+              child: FloatingActionButton(
+                heroTag: 'font_size',
+                onPressed: _openFontSizeSheet,
+                child: const Icon(Icons.text_fields),
+              ),
+            ),
+          ),
         ],
       ),
     );
@@ -400,7 +464,10 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       duration: const Duration(milliseconds: 250),
       child: _initialLoading
           ? KeyedSubtree(key: const ValueKey('loading'), child: loadingScaffold)
-          : KeyedSubtree(key: const ValueKey('content'), child: contentScaffold),
+          : KeyedSubtree(
+              key: const ValueKey('content'),
+              child: contentScaffold,
+            ),
     );
   }
 
@@ -427,7 +494,9 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                       if (!mounted) return;
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(
-                          content: Text('Pausa el audio antes de cambiar de versión.'),
+                          content: Text(
+                            'Pausa el audio antes de cambiar de versión.',
+                          ),
                           duration: Duration(milliseconds: 1000),
                         ),
                       );

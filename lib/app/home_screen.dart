@@ -1,50 +1,29 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import '../routes/routes.dart';
+import '../widgets/app_drawer.dart';
+import '../main.dart'; // para AppRoutes
 
-import '../model/hym.dart';
-import 'hymn_detail_screen.dart';
-
-/// Home screen (list of content)
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  late Future<List<Hymn>> _hymnsFuture;
-
-  @override
-  void initState() {
-    super.initState();
-    _hymnsFuture = _loadHymns();
-  }
-
-  Future<List<Hymn>> _loadHymns() async {
-    final jsonString = await rootBundle.loadString('assets/data/hymns.json');
-    final List<dynamic> decoded = json.decode(jsonString);
-    return decoded
-        .map((e) => Hymn.fromJson(e as Map<String, dynamic>))
-        .toList();
-  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: const AppDrawer(currentRoute: AppRoutes.home),
       appBar: AppBar(
-        backgroundColor: const Color(0xFF1E2A78), // Azul profundo (similar al logo)
+        backgroundColor: const Color(0xFF1E2A78),
         foregroundColor: Colors.white,
-        // Logo a la izquierda (en Home no hay flecha de regreso)
-        leadingWidth: 56,
-        leading: Padding(
-          padding: const EdgeInsets.only(left: 12),
-          child: Image.asset(
-            'assets/images/logo.png',
-            height: 28,
-            fit: BoxFit.contain,
+        leading: Builder(
+          builder: (context) => InkWell(
+            onTap: () => Scaffold.of(context).openDrawer(),
+            child: Padding(
+              padding: const EdgeInsets.only(left: 12),
+              child: Image.asset(
+                'assets/images/logo.png',
+                height: 28,
+                fit: BoxFit.contain,
+              ),
+            ),
           ),
         ),
         title: const Text(
@@ -53,54 +32,62 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         centerTitle: true,
       ),
-      body: FutureBuilder<List<Hymn>>(
-        future: _hymnsFuture,
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
-          }
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            const SizedBox(height: 8),
+            const Text(
+              'Bienvenido(a)',
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 8),
+            const Text(
+              'Que este himnario te acompañe en tu tiempo de oración y adoración.\n'
+              'Permite que cada himno fortalezca tu fe, consuele tu corazón y eleve tu voz en alabanza al Señor en todo momento.',
+              style: TextStyle(fontSize: 16, height: 1.5),
+            ),
+            const SizedBox(height: 16),
 
-          if (snapshot.hasError) {
-            return Center(
-              child: Text('Error al cargar himnos: ${snapshot.error}'),
-            );
-          }
-
-          final hymns = snapshot.data ?? [];
-
-          if (hymns.isEmpty) {
-            return const Center(child: Text('No hay himnos disponibles'));
-          }
-
-          return ListView.separated(
-            itemCount: hymns.length,
-            separatorBuilder: (_, __) => const Divider(height: 1),
-            itemBuilder: (context, index) {
-              final hymn = hymns[index];
-              return ListTile(
-                leading: CircleAvatar(
-                  backgroundColor: const Color(0xFF3A4CB3), // Azul más claro que el AppBar
-                  child: Text(
-                    hymn.number.toString(),
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
+            // Versículo de edificación (RVR1960)
+            Card(
+              elevation: 0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+                side: BorderSide(color: Colors.black.withOpacity(0.08)),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(14),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: const [
+                    SizedBox(height: 10),
+                    Text(
+                      '"La palabra de Cristo habite en vosotros en abundancia en toda sabiduría, enseñándoos y exhortándoos los unos á los otros con salmos é himnos y canciones espirituales, con gracia cantando en vuestros corazones al Señor."',
+                      style: TextStyle(fontSize: 15, height: 1.45),
+                      textAlign: TextAlign.left,
                     ),
-                  ),
+                    SizedBox(height: 10),
+                    Text(
+                      'Colosenses 3:16 (RVR09)',
+                      style: TextStyle(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ],
                 ),
-                title: Text(hymn.title),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) => HymnDetailScreen(hymn: hymn),
-                    ),
-                  );
-                },
-              );
-            },
-          );
-        },
+              ),
+            ),
+            const SizedBox(height: 12),
+            OutlinedButton.icon(
+              onPressed: () => Navigator.pushNamed(context, AppRoutes.donation),
+              icon: const Icon(Icons.volunteer_activism),
+              label: const Text('Apoyar con un donativo'),
+            ),
+          ],
+        ),
       ),
     );
   }

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "home",
+    "title": "Inicio",
+    "route": "/home"
+  },
+  {
+    "id": 2,
+    "icon": "hymns",
+    "title": "Himnos Congregacionales",
+    "route": "/hymns"
+  },
+  {
+    "id": 3,
+    "icon": "hymns_specials",
+    "title": "Himnos Especiales",
+    "route": "/hymns_specials"
+  },
+  {
+    "id": 3,
+    "icon": "hymns",
+    "title": "Coros",
+    "route": "/choruses"
+  }
+]
