@@ -30,8 +30,13 @@ jobs:
       - name: Install Dependencies
         run: flutter pub get
 
-      - name: Build Web
-        run: flutter build web --release --base-href "/himnario_iescc/"
+      - name: Build web
+        env:
+          PAYPAL_DONATE_URL: ${{ secrets.PAYPAL_DONATE_URL }}
+        run: |
+          flutter build web --release \
+            --base-href "/${{ github.event.repository.name }}/" \
+            --dart-define=PAYPAL_DONATE_URL="$PAYPAL_DONATE_URL"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
