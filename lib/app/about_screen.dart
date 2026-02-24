@@ -113,7 +113,7 @@ class AboutScreen extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 24),
-            /*const Divider(),
+            const Divider(),
             const SizedBox(height: 12),
             const Text(
               'Comentarios y sugerencias',
@@ -128,12 +128,12 @@ class AboutScreen extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton.icon(
-                onPressed: () => _openUrl('https://luicit.github.io/CV-Luis-R-Aguilar/'),
+                onPressed: () => _openUrl('https://forms.office.com/r/aNcUz4ijKS'),
                 icon: const Icon(Icons.feedback),
                 label: const Text('Enviar comentario'),
               ),
             ),
-            const SizedBox(height: 24),*/
+            const SizedBox(height: 24),
           ],
         ),
       ),

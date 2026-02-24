@@ -1,10 +1,22 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../routes/routes.dart';
 import '../widgets/app_drawer.dart';
 import '../main.dart'; // para AppRoutes
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
+
+  Future<void> _openUrl(String url) async {
+    final uri = Uri.parse(url);
+
+    if (kIsWeb) {
+      await launchUrl(uri, webOnlyWindowName: '_blank');
+    } else {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +61,6 @@ class HomeScreen extends StatelessWidget {
               style: TextStyle(fontSize: 16, height: 1.5),
             ),
             const SizedBox(height: 16),
-
             // Versículo de edificación (RVR1960)
             Card(
               elevation: 0,
@@ -85,6 +96,23 @@ class HomeScreen extends StatelessWidget {
               onPressed: () => Navigator.pushNamed(context, AppRoutes.donation),
               icon: const Icon(Icons.volunteer_activism),
               label: const Text('Apoyar con un donativo'),
+            ),
+            const SizedBox(height: 16),
+            const Divider(),
+            const SizedBox(height: 8),
+            const Text(
+              'Nota: Para abrir el menú lateral puedes darle clic al logo de la iglesia '
+              'o deslizar desde fuera de la pantalla de izquierda a derecha.',
+              style: TextStyle(fontSize: 16, height: 1.5),
+            ),
+            const SizedBox(height: 16),
+            SizedBox(
+              width: double.infinity,
+              child: OutlinedButton.icon(
+                onPressed: () => _openUrl('https://forms.office.com/r/aNcUz4ijKS'),
+                icon: const Icon(Icons.feedback),
+                label: const Text('Enviar comentario'),
+              ),
             ),
           ],
         ),

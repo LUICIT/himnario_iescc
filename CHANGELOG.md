@@ -4,6 +4,15 @@ Todos los cambios notables se documentarán en este archivo.
 
 ---
 
+## [2.0.1] - 2026-02-23
+
+### 🚀 Mejoras
+
+- Se agrega indicación al usuario de donde desplegar el drawer.
+- Se agrega enlace para encuesta de satisfacción del usuario..
+
+---
+
 ## [2.0.0] - 2026-02-19
 
 ### 🚀 Mejoras importantes
