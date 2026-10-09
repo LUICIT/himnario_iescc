@@ -10,7 +10,16 @@ import 'hymn_detail_screen.dart';
 
 /// Home screen (list of content)
 class HymnScreen extends StatefulWidget {
-  const HymnScreen({super.key});
+  final String title;
+  final String assetPath;
+  final String currentRoute;
+
+  const HymnScreen({
+    super.key,
+    this.title = 'Himnos Congregacionales',
+    this.assetPath = 'assets/data/hymns.json',
+    this.currentRoute = AppRoutes.hymns,
+  });
 
   @override
   State<HymnScreen> createState() => _HymnScreenState();
@@ -26,7 +35,7 @@ class _HymnScreenState extends State<HymnScreen> {
   }
 
   Future<List<Hymn>> _loadHymns() async {
-    final jsonString = await rootBundle.loadString('assets/data/hymns.json');
+    final jsonString = await rootBundle.loadString(widget.assetPath);
     final List<dynamic> decoded = json.decode(jsonString);
     return decoded
         .map((e) => Hymn.fromJson(e as Map<String, dynamic>))
@@ -36,14 +45,14 @@ class _HymnScreenState extends State<HymnScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const AppDrawer(currentRoute: AppRoutes.hymns),
+      drawer: AppDrawer(currentRoute: widget.currentRoute),
       appBar: AppBar(
         backgroundColor: const Color(0xFF1E2A78),
         // Azul profundo (similar al logo)
         foregroundColor: Colors.white,
-        title: const Text(
-          'Himnos Congregacionales',
-          style: TextStyle(fontWeight: FontWeight.w600),
+        title: Text(
+          widget.title,
+          style: const TextStyle(fontWeight: FontWeight.w600),
         ),
         centerTitle: true,
       ),
@@ -68,7 +77,7 @@ class _HymnScreenState extends State<HymnScreen> {
 
           return ListView.separated(
             itemCount: hymns.length,
-            separatorBuilder: (_, __) => const Divider(height: 1),
+            separatorBuilder: (_, _) => const Divider(height: 1),
             itemBuilder: (context, index) {
               final hymn = hymns[index];
               return ListTile(
@@ -88,7 +97,10 @@ class _HymnScreenState extends State<HymnScreen> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (_) => HymnDetailScreen(hymn: hymn),
+                      builder: (_) => HymnDetailScreen(
+                        hymn: hymn,
+                        collection: widget.currentRoute,
+                      ),
                     ),
                   );
                 },

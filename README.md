@@ -54,6 +54,19 @@ assets/
 
 ---
 
+## Catálogos JSON
+
+La aplicación ofrece 295 himnos congregacionales, 154 especiales, 86 coros y
+103 himnos de adoración. Cada colección se guarda en un archivo JSON dentro de
+`assets/data/`, con el formato de los congregacionales. Las nuevas colecciones
+incluyen letras y tienen los campos de audio en `null`.
+
+El formato, la procedencia y la conversión se describen en
+[docs/hymn_catalogs.md](docs/hymn_catalogs.md). Mandamientos utiliza un JSON propio con secciones, partes, grupos y pasajes;
+su formato se describe en [docs/commandments.md](docs/commandments.md). La lectura
+permite seleccionar texto y ajustar su tamaño. Lemas y pensamientos quedan
+pendientes de recibir su contenido.
+
 ## ⚙️ Requisitos Previos
 
 - Flutter SDK instalado

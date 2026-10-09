@@ -3,6 +3,7 @@ class AppRoutes {
   static const home = '/home';
   static const hymns = '/hymns';
   static const hymnsSpecials = '/hymns_specials';
+  static const hymnsWorship = '/hymns_worship';
   static const choruses = '/choruses';
   static const commandments = '/commandments';
   static const slogansThoughts = '/slogans_thoughts';
@@ -14,6 +15,7 @@ class AppRoutes {
     hymns,
     hymnsSpecials,
     choruses,
+    hymnsWorship,
     commandments,
     slogansThoughts,
     donation,

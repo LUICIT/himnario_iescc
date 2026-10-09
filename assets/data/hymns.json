@@ -3232,5 +3232,16 @@
       "audio_2": null,
       "audio_3": "assets/audio/karaoke/293P.m4a"
     }
+  },
+  {
+    "id": 295,
+    "number": 294,
+    "title": "SALIDA DEL SOL",
+    "content": {
+      "lyrics": "//Desde la salida del sol,\nHasta su puesta en el atarcedecer,\nAlabado sea el nombre del señooor !//\n\nDemos // gloria al señooor //\n\nDesde la salida del sol,\nHasta su puesta en el atarcedecer,\nAlabado sea el nombre del señooor !",
+      "audio_1": null,
+      "audio_2": null,
+      "audio_3": null
+    }
   }
 ]

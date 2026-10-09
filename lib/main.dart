@@ -1,9 +1,9 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:himnario_iescc/routes/routes.dart';
 import 'package:just_audio_background/just_audio_background.dart';
 
 import 'app/about_screen.dart';
+import 'app/commandments_screen.dart';
 import 'app/donate_screen.dart';
 import 'app/home_screen.dart';
 import 'app/hymns_screen.dart';
@@ -40,21 +40,22 @@ class MyApp extends StatelessWidget {
         AppRoutes.splash: (_) => const SplashScreen(),
         AppRoutes.home: (_) => const HomeScreen(),
         AppRoutes.hymns: (_) => const HymnScreen(),
-        AppRoutes.hymnsSpecials: (_) => const UnderDevelopmentScreen(
+        AppRoutes.hymnsSpecials: (_) => const HymnScreen(
           title: 'Himnos Especiales',
-          message:
-              'Esta sección está en desarrollo. Próximamente estará disponible.',
+          assetPath: 'assets/data/hymns_special.json',
+          currentRoute: AppRoutes.hymnsSpecials,
         ),
-        AppRoutes.choruses: (_) => const UnderDevelopmentScreen(
+        AppRoutes.choruses: (_) => const HymnScreen(
           title: 'Coros',
-          message:
-              'Esta sección está en desarrollo. Próximamente estará disponible.',
+          assetPath: 'assets/data/choruses.json',
+          currentRoute: AppRoutes.choruses,
         ),
-        AppRoutes.commandments: (_) => const UnderDevelopmentScreen(
-          title: 'Mandamientos',
-          message:
-              'Esta sección está en desarrollo. Próximamente estará disponible.',
+        AppRoutes.hymnsWorship: (_) => const HymnScreen(
+          title: 'Himnos de Adoración',
+          assetPath: 'assets/data/hymns_worship.json',
+          currentRoute: AppRoutes.hymnsWorship,
         ),
+        AppRoutes.commandments: (_) => const CommandmentsScreen(),
         AppRoutes.slogansThoughts: (_) => const UnderDevelopmentScreen(
           title: 'Lemas y Pensamientos',
           message:

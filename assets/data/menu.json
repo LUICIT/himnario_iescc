@@ -24,6 +24,12 @@
     "route": "/choruses"
   },
   {
+    "id": 9,
+    "icon": "hymns_worship",
+    "title": "Himnos de Adoración",
+    "route": "/hymns_worship"
+  },
+  {
     "id": 5,
     "icon": "hymns",
     "title": "Mandamientos",

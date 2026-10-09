@@ -1,0 +1,903 @@
+{
+  "schema_version": 1,
+  "sections": [
+    {
+      "id": "father",
+      "title": "Mandamientos de Dios el Padre",
+      "parts": [
+        {
+          "id": "father_part_1",
+          "number": null,
+          "title": null,
+          "groups": [
+            {
+              "id": "father_part_1_group_1",
+              "number": 1,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Marcos",
+                    "chapter": 12,
+                    "verses": [
+                      30
+                    ]
+                  },
+                  "text": "Amarás pues al Señor tu Dios de todo tu corazón, y de toda tu alma, y de toda tu mente, y de todas tus fuerzas; este es el principal mandamiento."
+                },
+                {
+                  "reference": {
+                    "book": "Marcos",
+                    "chapter": 12,
+                    "verses": [
+                      31
+                    ]
+                  },
+                  "text": "Y el segundo es semejante a él: Amarás a tu prójimo como a ti mismo."
+                }
+              ]
+            },
+            {
+              "id": "father_part_1_group_2",
+              "number": 2,
+              "title": "Los diez mandamientos",
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Éxodo",
+                    "chapter": 20,
+                    "verses": [
+                      3
+                    ]
+                  },
+                  "text": "No tendrás dioses ajenos delante de mí.",
+                  "commandment_number": 1
+                },
+                {
+                  "reference": {
+                    "book": "Éxodo",
+                    "chapter": 20,
+                    "verses": [
+                      4,
+                      5,
+                      6
+                    ]
+                  },
+                  "text": "No te harás imagen, ni ninguna semejanza de cosa que esté arriba en el cielo, ni abajo en la tierra, ni en las aguas debajo de la tierra: No te inclinarás a ellas ni las honrarás; porque yo soy Jehová tu Dios, fuerte, celoso, que visito la maldad de los padres sobre los hijos, sobre los terceros y sobre los cuartos, a los que me aborrecen, y que hago misericordia en millares a los que me aman y guardan mis mandamientos.",
+                  "commandment_number": 2
+                },
+                {
+                  "reference": {
+                    "book": "Éxodo",
+                    "chapter": 20,
+                    "verses": [
+                      7
+                    ]
+                  },
+                  "text": "No tomarás el nombre de Jehová tu Dios en vano, porque no dará por inocente Jehová al que tomare su nombre en vano.",
+                  "commandment_number": 3
+                }
+              ]
+            },
+            {
+              "id": "father_part_1_group_3",
+              "number": 3,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Éxodo",
+                    "chapter": 20,
+                    "verses": [
+                      8,
+                      9,
+                      10,
+                      11
+                    ]
+                  },
+                  "text": "Acordarte has del día de reposo para santificarlo. Seis días trabajarás, y harás toda tu obra; mas el séptimo día será reposo para Jehová tu Dios: no hagas en él obra alguna, tú, ni tu hijo, ni tu hija, ni tu siervo, ni tu criada, ni tu bestia, ni tu extranjero que está dentro de tus puertas: porque en seis días hizo Jehová los cielos y la tierra, la mar y todas las cosas que en ellos hay, y reposó en el séptimo día: por tanto Jehová bendijo el día del reposo y lo santificó.",
+                  "commandment_number": 4
+                }
+              ]
+            },
+            {
+              "id": "father_part_1_group_4",
+              "number": 4,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Éxodo",
+                    "chapter": 20,
+                    "verses": [
+                      12
+                    ]
+                  },
+                  "text": "Honra a tu padre y a tu madre, porque tus días se alarguen en la tierra que Jehová tu Dios te da.",
+                  "commandment_number": 5
+                },
+                {
+                  "reference": {
+                    "book": "Éxodo",
+                    "chapter": 20,
+                    "verses": [
+                      13
+                    ]
+                  },
+                  "text": "No matarás.",
+                  "commandment_number": 6
+                },
+                {
+                  "reference": {
+                    "book": "Éxodo",
+                    "chapter": 20,
+                    "verses": [
+                      14
+                    ]
+                  },
+                  "text": "No cometerás adulterio.",
+                  "commandment_number": 7
+                },
+                {
+                  "reference": {
+                    "book": "Éxodo",
+                    "chapter": 20,
+                    "verses": [
+                      15
+                    ]
+                  },
+                  "text": "No hurtarás.",
+                  "commandment_number": 8
+                },
+                {
+                  "reference": {
+                    "book": "Éxodo",
+                    "chapter": 20,
+                    "verses": [
+                      16
+                    ]
+                  },
+                  "text": "No hablarás contra tu prójimo falso testimonio.",
+                  "commandment_number": 9
+                },
+                {
+                  "reference": {
+                    "book": "Éxodo",
+                    "chapter": 20,
+                    "verses": [
+                      17
+                    ]
+                  },
+                  "text": "No codiciarás la casa de tu prójimo, no codiciarás la mujer de tu prójimo, ni su siervo, ni su criada, ni su buey, ni su asno, ni cosa alguna de tu prójimo.",
+                  "commandment_number": 10
+                }
+              ]
+            },
+            {
+              "id": "father_part_1_group_5",
+              "number": 5,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Levítico",
+                    "chapter": 11,
+                    "verses": [
+                      7
+                    ]
+                  },
+                  "text": "También el puerco, porque tiene pezuñas, y es de pezuñas hendidas, mas no rumia, tendréislo por inmundo."
+                },
+                {
+                  "reference": {
+                    "book": "Malaquías",
+                    "chapter": 3,
+                    "verses": [
+                      8,
+                      9,
+                      10
+                    ]
+                  },
+                  "text": "¿Robará el hombre a Dios? Pues vosotros me habéis robado. Y dijisteis: ¿En qué te hemos robado? Los diezmos y las primicias. Malditos sois con maldición, porque vosotros la nación toda, me habéis robado.\n\nTraed todos los diezmos al alfolí, y haya alimento en mi casa; y probadme ahora en esto, dice Jehová de los ejércitos, si no os abriré las ventanas de los cielos y vaciaré sobre vosotros bendición hasta que sobreabunde."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jesus",
+      "title": "Mandamientos de Jesús Dios el Hijo",
+      "parts": [
+        {
+          "id": "jesus_part_1",
+          "number": 1,
+          "title": "Primera parte",
+          "groups": [
+            {
+              "id": "jesus_part_1_group_1",
+              "number": 1,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 4,
+                    "verses": [
+                      10
+                    ]
+                  },
+                  "text": "Entonces Jesús le dice: Vete Satanás que escrito está: Al Señor tu Dios adorarás y a Él sólo servirás."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      19
+                    ]
+                  },
+                  "text": "De manera que cualquiera que infringiere uno de estos mandamientos muy pequeños, y así enseñare a los hombres, muy pequeño será llamado en el reino de los cielos: mas cualquiera que hiciere y enseñare, éste será llamado grande en el reino de los cielos."
+                }
+              ]
+            },
+            {
+              "id": "jesus_part_1_group_2",
+              "number": 2,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      23
+                    ]
+                  },
+                  "text": "Por tanto, si trajeres tu presente al altar, y allí te acordares de que tu hermano tiene algo contra ti,"
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      24
+                    ]
+                  },
+                  "text": "Deja allí tu presente delante del altar, y vete, vuelve primero en amistad con tu hermano, y entonces ven y ofrece tu presente."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      25
+                    ]
+                  },
+                  "text": "Concíliate con tu adversario presto, entre tanto que estás con él en el camino; porque no acontezca que el adversario te entregue al juez, y el juez te entregue al alguacil, y seas echado en prisión."
+                }
+              ]
+            },
+            {
+              "id": "jesus_part_1_group_3",
+              "number": 3,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      28
+                    ]
+                  },
+                  "text": "Mas yo os digo, que cualquiera que mira a una mujer para codiciarla, ya adulteró con ella en su corazón."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      29
+                    ]
+                  },
+                  "text": "Por tanto, si tu ojo derecho te fuere ocasión de caer, sácalo y échalo de ti: que mejor te es que se pierda uno de tus miembros, que no que todo tu cuerpo sea echado al infierno."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      32
+                    ]
+                  },
+                  "text": "Mas yo os digo, que el que repudiare a su mujer, fuera de causa de fornicación, hace que ella adultere; y el que se casa con la repudiada, comete adulterio."
+                }
+              ]
+            },
+            {
+              "id": "jesus_part_1_group_4",
+              "number": 4,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      34
+                    ]
+                  },
+                  "text": "Mas yo os digo: No juréis de ninguna manera: ni por el cielo porque es el trono de Dios."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      37
+                    ]
+                  },
+                  "text": "Mas sea vuestro hablar: Sí, sí: no, no; porque lo que es más de esto, de mal procede."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      39
+                    ]
+                  },
+                  "text": "Mas yo os digo: No resistáis al mal; antes a cualquiera que te hiere en tu mejilla diestra, vuélvele también la otra."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      42
+                    ]
+                  },
+                  "text": "Al que te pidiere, da; y al que quisiere tomar de ti prestado, no se lo rehúses."
+                }
+              ]
+            },
+            {
+              "id": "jesus_part_1_group_5",
+              "number": 5,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      44
+                    ]
+                  },
+                  "text": "Mas yo os digo: Amad a vuestros enemigos, bendecid a los que os maldicen, haced bien a los que os aborrecen, y orad por los que os ultrajan y os persiguen."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 5,
+                    "verses": [
+                      48
+                    ]
+                  },
+                  "text": "Sed, pues, vosotros perfectos, como vuestro Padre que está en los cielos es perfecto."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jesus_part_2",
+          "number": 2,
+          "title": "Segunda parte",
+          "groups": [
+            {
+              "id": "jesus_part_2_group_1",
+              "number": 1,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 6,
+                    "verses": [
+                      1
+                    ]
+                  },
+                  "text": "Mirad que no hagáis vuestra justicia delante de los hombres para ser vistos de ellos, de otra manera no tendréis merced de vuestro Padre que está en los cielos."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 6,
+                    "verses": [
+                      5
+                    ]
+                  },
+                  "text": "Y cuando oras, no seas como los hipócritas; porque ellos aman el orar en las sinagogas, y en los cantones de las calles en pie, para ser vistos de los hombres: de cierto os digo, que ya tienen su pago."
+                }
+              ]
+            },
+            {
+              "id": "jesus_part_2_group_2",
+              "number": 2,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 6,
+                    "verses": [
+                      7
+                    ]
+                  },
+                  "text": "Y orando, no seáis prolijos como los gentiles; que piensan que por su parlería serán oídos."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 6,
+                    "verses": [
+                      9
+                    ]
+                  },
+                  "text": "Vosotros, pues, oraréis así: Padre nuestro que estás en los cielos, santificado sea tu nombre."
+                }
+              ]
+            },
+            {
+              "id": "jesus_part_2_group_3",
+              "number": 3,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 6,
+                    "verses": [
+                      17
+                    ]
+                  },
+                  "text": "Mas tú, cuando ayunas, unge tu cabeza y lava tu rostro."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 6,
+                    "verses": [
+                      19
+                    ]
+                  },
+                  "text": "No os hagáis tesoros en la tierra, donde la polilla y el orín corrompe, y donde ladrones minan y hurtan."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 6,
+                    "verses": [
+                      24
+                    ]
+                  },
+                  "text": "Ninguno puede servir a dos señores, porque o aborrecerá al uno y amará al otro, o se allegará al uno y menospreciará al otro, no podéis servir a Dios y a Mammón."
+                }
+              ]
+            },
+            {
+              "id": "jesus_part_2_group_4",
+              "number": 4,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 6,
+                    "verses": [
+                      25
+                    ]
+                  },
+                  "text": "Por tanto, os digo: No os congojéis por vuestra vida, qué habéis de comer, o qué habéis de beber; ni por vuestro cuerpo, qué habéis de vestir: ¿no es la vida más que el alimento, y el cuerpo que el vestido?"
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 6,
+                    "verses": [
+                      33
+                    ]
+                  },
+                  "text": "Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 6,
+                    "verses": [
+                      34
+                    ]
+                  },
+                  "text": "Así que, no os congojéis por el día de mañana; que el día de mañana traerá su fatiga; basta al día su afán."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jesus_part_3",
+          "number": 3,
+          "title": "Tercera parte",
+          "groups": [
+            {
+              "id": "jesus_part_3_group_1",
+              "number": 1,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 7,
+                    "verses": [
+                      1
+                    ]
+                  },
+                  "text": "No juzguéis, para que no seáis juzgados."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 7,
+                    "verses": [
+                      5
+                    ]
+                  },
+                  "text": "¡Hipócrita! Echa primero la viga de tu ojo, y entonces mirarás en echar la mota del ojo de tu hermano."
+                }
+              ]
+            },
+            {
+              "id": "jesus_part_3_group_2",
+              "number": 2,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 7,
+                    "verses": [
+                      6
+                    ]
+                  },
+                  "text": "No deis lo santo a los perros, ni echéis vuestras perlas delante de los puercos; porque no las rehúellen con sus pies, y vuelvan y os despedacen."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 7,
+                    "verses": [
+                      7
+                    ]
+                  },
+                  "text": "Pedid, y se os dará; buscad y hallaréis; llamad, y se os abrirá."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 7,
+                    "verses": [
+                      12
+                    ]
+                  },
+                  "text": "Así que, todas las cosas que quisierais que los hombres hiciesen con vosotros, así también haced vosotros con ellos; porque esta es la ley y los profetas."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 7,
+                    "verses": [
+                      13
+                    ]
+                  },
+                  "text": "Entrad por la puerta estrecha: porque ancha es la puerta, y espacioso el camino que lleva a perdición, y muchos son los que entran por ella."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 7,
+                    "verses": [
+                      15
+                    ]
+                  },
+                  "text": "Y guardaos de los falsos profetas que vienen a vosotros con vestidos de ovejas, mas de dentro son lobos rapaces."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 7,
+                    "verses": [
+                      21
+                    ]
+                  },
+                  "text": "No todo el que me dice: Señor, Señor, entrará en el reino de los cielos, mas el que hiciere la voluntad de mi Padre que está en los cielos."
+                },
+                {
+                  "reference": {
+                    "book": "Mateo",
+                    "chapter": 7,
+                    "verses": [
+                      24
+                    ]
+                  },
+                  "text": "Cualquiera pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la peña."
+                },
+                {
+                  "reference": {
+                    "book": "Marcos",
+                    "chapter": 10,
+                    "verses": [
+                      9
+                    ]
+                  },
+                  "text": "Pues lo que Dios juntó, no lo aparte el hombre."
+                },
+                {
+                  "reference": {
+                    "book": "Marcos",
+                    "chapter": 12,
+                    "verses": [
+                      17
+                    ]
+                  },
+                  "text": "Y respondiendo Jesús, les dijo: Dad lo que es de César a César, y lo que es de Dios, a Dios. Y se maravillaban de ello."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jesus_part_4",
+          "number": 4,
+          "title": "Cuarta parte",
+          "groups": [
+            {
+              "id": "jesus_part_4_group_1",
+              "number": 1,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Lucas",
+                    "chapter": 12,
+                    "verses": [
+                      15
+                    ]
+                  },
+                  "text": "Y díjoles: Mirad, y guardaos de toda avaricia; porque la vida del hombre no consiste en la abundancia de los bienes que posee."
+                },
+                {
+                  "reference": {
+                    "book": "Lucas",
+                    "chapter": 12,
+                    "verses": [
+                      29
+                    ]
+                  },
+                  "text": "Vosotros, pues, no procuréis qué hayáis de comer o qué hayáis de beber; ni estéis en ansiosa perplejidad."
+                },
+                {
+                  "reference": {
+                    "book": "Lucas",
+                    "chapter": 12,
+                    "verses": [
+                      30
+                    ]
+                  },
+                  "text": "Porque todas estas cosas buscan las gentes del mundo; que vuestro Padre sabe que necesitáis estas cosas."
+                }
+              ]
+            },
+            {
+              "id": "jesus_part_4_group_2",
+              "number": 2,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Juan",
+                    "chapter": 6,
+                    "verses": [
+                      27
+                    ]
+                  },
+                  "text": "Trabajad no por la comida que perece, mas por la comida que a vida eterna permanece, la cual el Hijo del hombre os dará: porque a este señaló el Padre que es Dios."
+                },
+                {
+                  "reference": {
+                    "book": "Juan",
+                    "chapter": 13,
+                    "verses": [
+                      34
+                    ]
+                  },
+                  "text": "Un mandamiento nuevo os doy: Que os améis unos a otros."
+                },
+                {
+                  "reference": {
+                    "book": "Juan",
+                    "chapter": 14,
+                    "verses": [
+                      23
+                    ]
+                  },
+                  "text": "Respondió Jesús, y díjole: El que me ama, mi palabra guardará; y mi Padre le amará; y vendremos a Él, y haremos con Él morada."
+                },
+                {
+                  "reference": {
+                    "book": "Juan",
+                    "chapter": 14,
+                    "verses": [
+                      24
+                    ]
+                  },
+                  "text": "El que no me ama, no guarda mis palabras: y la palabra que habéis oído, no es mía, sino del Padre que me envió."
+                }
+              ]
+            },
+            {
+              "id": "jesus_part_4_group_3",
+              "number": 3,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Juan",
+                    "chapter": 15,
+                    "verses": [
+                      10
+                    ]
+                  },
+                  "text": "Si guardareis mis mandamientos, estaréis en mi amor; como yo también he guardado los mandamientos de mi Padre, y estoy en su amor."
+                },
+                {
+                  "reference": {
+                    "book": "Juan",
+                    "chapter": 15,
+                    "verses": [
+                      14
+                    ]
+                  },
+                  "text": "Vosotros sois mis amigos, si hiciereis las cosas que yo os mando."
+                },
+                {
+                  "reference": {
+                    "book": "Juan",
+                    "chapter": 15,
+                    "verses": [
+                      22
+                    ]
+                  },
+                  "text": "Si no hubiera venido, ni les hubiera hablado, no tendrían pecado; mas ahora no tienen excusa de su pecado."
+                }
+              ]
+            },
+            {
+              "id": "jesus_part_4_group_4",
+              "number": 4,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Lucas",
+                    "chapter": 24,
+                    "verses": [
+                      44
+                    ]
+                  },
+                  "text": "Y Él les dijo: Estas son las palabras que os hablé, estando aún con vosotros: que era necesario que se cumpliesen todas las cosas que están escritas de mí en la ley de Moisés, y en los profetas y en los Salmos."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spirit",
+      "title": "Mandamientos del Espíritu Santo",
+      "parts": [
+        {
+          "id": "spirit_part_1",
+          "number": null,
+          "title": null,
+          "groups": [
+            {
+              "id": "spirit_part_1_group_1",
+              "number": 1,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "1 Corintios",
+                    "chapter": 7,
+                    "verses": [
+                      23
+                    ]
+                  },
+                  "text": "Por precio sois comprados, no os hagáis siervos de los hombres."
+                },
+                {
+                  "reference": {
+                    "book": "1 Corintios",
+                    "chapter": 10,
+                    "verses": [
+                      33
+                    ]
+                  },
+                  "text": "Como también yo en todas las cosas complazco a todos, no procurando mi propio beneficio, sino el de muchos para que sean salvos."
+                }
+              ]
+            },
+            {
+              "id": "spirit_part_1_group_2",
+              "number": 2,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "2 Corintios",
+                    "chapter": 6,
+                    "verses": [
+                      17
+                    ]
+                  },
+                  "text": "Por lo cual salid de en medio de ellos, y apartaos, dice el Señor, y no toquéis lo inmundo; y yo os recibiré."
+                },
+                {
+                  "reference": {
+                    "book": "Colosenses",
+                    "chapter": 3,
+                    "verses": [
+                      2
+                    ]
+                  },
+                  "text": "Poned la mira en las cosas de arriba, no en las de la tierra."
+                }
+              ]
+            },
+            {
+              "id": "spirit_part_1_group_3",
+              "number": 3,
+              "title": null,
+              "passages": [
+                {
+                  "reference": {
+                    "book": "Hebreos",
+                    "chapter": 10,
+                    "verses": [
+                      38
+                    ]
+                  },
+                  "text": "Ahora el justo vivirá por fe, mas si se retirare no agradará a mi alma."
+                },
+                {
+                  "reference": {
+                    "book": "Apocalipsis",
+                    "chapter": 22,
+                    "verses": [
+                      14
+                    ]
+                  },
+                  "text": "Bienaventurados los que guardan sus mandamientos, para que su potencia sea en el árbol de la vida, y entren por las puertas en la ciudad."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

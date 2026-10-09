@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 import '../classes/menu_item.dart';
-import '../classes/paypal_donate.dart';
 import '../routes/routes.dart';
 
 class AppDrawer extends StatefulWidget {
@@ -72,17 +71,6 @@ class _AppDrawerState extends State<AppDrawer> {
     Navigator.pushNamedAndRemoveUntil(context, item.route, (route) => false);
   }
 
-  Future<void> _donate() async {
-    try {
-      await PaypalDonate.openDonateLink();
-    } catch (_) {
-      if (!mounted) return;
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(const SnackBar(content: Text('No se pudo abrir PayPal')));
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -132,7 +120,7 @@ class _AppDrawerState extends State<AppDrawer> {
 
                   return ListView.separated(
                     itemCount: items.length,
-                    separatorBuilder: (_, __) => const Divider(height: 1),
+                    separatorBuilder: (_, _) => const Divider(height: 1),
                     itemBuilder: (context, index) {
                       final item = items[index];
                       final selected = item.route == widget.currentRoute;

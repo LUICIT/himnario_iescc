@@ -3,7 +3,6 @@ import 'package:flutter/foundation.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../routes/routes.dart';
 import '../widgets/app_drawer.dart';
-import '../main.dart';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
@@ -128,7 +127,8 @@ class AboutScreen extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton.icon(
-                onPressed: () => _openUrl('https://forms.office.com/r/aNcUz4ijKS'),
+                onPressed: () =>
+                    _openUrl('https://forms.office.com/r/aNcUz4ijKS'),
                 icon: const Icon(Icons.feedback),
                 label: const Text('Enviar comentario'),
               ),

@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
@@ -13,11 +12,18 @@ import 'package:path_provider/path_provider.dart';
 
 import '../classes/tack_option.dart';
 import '../model/hym.dart';
+import '../routes/routes.dart';
 
 class HymnDetailScreen extends StatefulWidget {
   final Hymn hymn;
 
-  const HymnDetailScreen({super.key, required this.hymn});
+  final String collection;
+
+  const HymnDetailScreen({
+    super.key,
+    required this.hymn,
+    this.collection = AppRoutes.hymns,
+  });
 
   @override
   State<HymnDetailScreen> createState() => _HymnDetailScreenState();
@@ -145,11 +151,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
 
   Future<void> _loadAssetManifest() async {
     try {
-      final manifestJson = await rootBundle.loadString('AssetManifest.json');
-      final Map<String, dynamic> manifest =
-          jsonDecode(manifestJson) as Map<String, dynamic>;
-      final keys = manifest.keys;
-      _assetManifestPaths = keys.toSet();
+      final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+      _assetManifestPaths = manifest.listAssets().toSet();
       _manifestLoaded = true;
     } catch (e) {
       // If manifest fails (rare), we still allow attempting setAsset.
@@ -217,7 +220,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
 
       final hymn = widget.hymn;
       final mediaItem = MediaItem(
-        id: '${hymn.id}:${track.key}',
+        id: '${widget.collection}:${hymn.id}:${track.key}',
         album: 'Himnario IESCC',
         title: '${hymn.number}. ${hymn.title}',
         artist: track.label,

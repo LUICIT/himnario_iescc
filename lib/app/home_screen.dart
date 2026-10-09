@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../routes/routes.dart';
 import '../widgets/app_drawer.dart';
-import '../main.dart'; // para AppRoutes
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -66,7 +65,7 @@ class HomeScreen extends StatelessWidget {
               elevation: 0,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(12),
-                side: BorderSide(color: Colors.black.withOpacity(0.08)),
+                side: BorderSide(color: Colors.black.withValues(alpha: 0.08)),
               ),
               child: Padding(
                 padding: const EdgeInsets.all(14),
@@ -109,7 +108,8 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton.icon(
-                onPressed: () => _openUrl('https://forms.office.com/r/aNcUz4ijKS'),
+                onPressed: () =>
+                    _openUrl('https://forms.office.com/r/aNcUz4ijKS'),
                 icon: const Icon(Icons.feedback),
                 label: const Text('Enviar comentario'),
               ),

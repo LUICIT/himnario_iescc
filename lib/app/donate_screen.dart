@@ -12,8 +12,6 @@ class DonateScreen extends StatefulWidget {
 }
 
 class _DonateScreenState extends State<DonateScreen> {
-  static const String _routeName = '/donate';
-
   Future<void> _donate() async {
     try {
       await PaypalDonate.openDonateLink();

@@ -28,6 +28,7 @@ class MenuItem {
         return Icons.home;
       case 'hymns':
       case 'hymns_specials':
+      case 'hymns_worship':
         return Icons.menu_book;
       case 'donation':
         return Icons.volunteer_activism;
