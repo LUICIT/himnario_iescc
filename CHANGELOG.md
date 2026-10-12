@@ -4,6 +4,29 @@ Todos los cambios notables se documentarán en este archivo.
 
 ---
 
+## [2.2.0] - 2026-10-11
+
+### Lemas y pensamientos
+
+- Se habilita la sección desde el menú con Nuestro esfuerzo, Grito de batalla
+  y Lema adicional al inicio del índice.
+- Se añaden 86 lemas anuales de 1938 a 2023 en nueve grupos por apóstol o
+  Junta de Arzobispos, conforme a las atribuciones confirmadas por el usuario.
+- Se reemplazan las opciones de menú que contenía `slogans_thoughts.json`
+  por el catálogo con `introductory_texts` y `author_groups`.
+- Los IDs son enteros consecutivos desde 1 dentro de cada lista y el año
+  se guarda en un campo separado.
+- Se normalizan los títulos como año o año seguido del encabezado del lema,
+  y se conservan los párrafos de los lemas dobles y triples.
+- Se corrigen 1848 y 1871 a 1948 y 1971 y se une la continuación de 1998.
+- Se añade navegación por autor y año y lectura con selección de texto
+  y ajuste de letra. El ancho proporcional sigue limitado a Mandamientos.
+- Se añaden documentación y pruebas de datos y navegación.
+- Se actualiza la versión de la aplicación a `2.2.0+3`.
+- No se cambian el SDK ni las dependencias.
+- Validación: 28 pruebas aprobadas mediante Apple Command Line Tools y análisis
+  de Flutter sin incidencias. Compilación web correcta.
+
 ## [2.1.0] - 2026-10-08
 
 ### Nuevas funcionalidades

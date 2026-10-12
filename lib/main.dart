@@ -9,6 +9,7 @@ import 'app/home_screen.dart';
 import 'app/hymns_screen.dart';
 import 'app/not_found_screen.dart';
 import 'app/splash_screen.dart';
+import 'app/slogans_thoughts_screen.dart';
 import 'app/under_development_screen.dart';
 
 Future<void> main() async {
@@ -56,11 +57,7 @@ class MyApp extends StatelessWidget {
           currentRoute: AppRoutes.hymnsWorship,
         ),
         AppRoutes.commandments: (_) => const CommandmentsScreen(),
-        AppRoutes.slogansThoughts: (_) => const UnderDevelopmentScreen(
-          title: 'Lemas y Pensamientos',
-          message:
-              'Esta sección está en desarrollo. Próximamente estará disponible.',
-        ),
+        AppRoutes.slogansThoughts: (_) => const SlogansThoughtsScreen(),
         AppRoutes.donation: (_) => const DonateScreen(),
         AppRoutes.about: (_) => const AboutScreen(),
       },

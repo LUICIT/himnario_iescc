@@ -64,8 +64,10 @@ incluyen letras y tienen los campos de audio en `null`.
 El formato, la procedencia y la conversión se describen en
 [docs/hymn_catalogs.md](docs/hymn_catalogs.md). Mandamientos utiliza un JSON propio con secciones, partes, grupos y pasajes;
 su formato se describe en [docs/commandments.md](docs/commandments.md). La lectura
-permite seleccionar texto y ajustar su tamaño. Lemas y pensamientos quedan
-pendientes de recibir su contenido.
+permite seleccionar texto y ajustar su tamaño. Lemas y Pensamientos incluye
+los tres textos iniciales y 86 lemas anuales (1938–2023), agrupados por apóstol
+y por la Junta de Arzobispos. Su formato se describe en
+[docs/slogans_thoughts.md](docs/slogans_thoughts.md).
 
 ## ⚙️ Requisitos Previos
 

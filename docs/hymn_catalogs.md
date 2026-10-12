@@ -65,12 +65,12 @@ antes de escribir y conserva los congregacionales locales. Repetirlo no añade
 otra copia de `SALIDA DEL SOL`. Las colecciones nuevas se regeneran: guardar
 por separado cualquier edición o audio propio antes de volver a importarlas.
 
-## Secciones pendientes
+## Otros catálogos
 
-Mandamientos ya está disponible y utiliza una estructura propia, documentada en
-[commandments.md](commandments.md). Lemas y pensamientos mantienen su pantalla
-actual hasta recibir el contenido del usuario. `slogans_thoughts.json` todavía contiene opciones de
-menú; no es un catálogo de pensamientos y no se carga como tal.
+Mandamientos utiliza una estructura propia, documentada en
+[commandments.md](commandments.md). Lemas y Pensamientos se guarda en
+`slogans_thoughts.json`, con los textos iniciales y los lemas anuales agrupados
+por autor. Su formato se describe en [slogans_thoughts.md](slogans_thoughts.md).
 
 ## Validación
 

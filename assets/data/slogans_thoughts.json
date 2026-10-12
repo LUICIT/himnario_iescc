@@ -1,26 +1,797 @@
-[
-  {
-    "id": 1,
-    "icon": "home",
-    "title": "Inicio",
-    "route": "/home"
-  },
-  {
-    "id": 2,
-    "icon": "hymns",
-    "title": "Himnos Congregacionales",
-    "route": "/hymns"
-  },
-  {
-    "id": 3,
-    "icon": "hymns_specials",
-    "title": "Himnos Especiales",
-    "route": "/hymns_specials"
-  },
-  {
-    "id": 3,
-    "icon": "hymns",
-    "title": "Coros",
-    "route": "/choruses"
-  }
-]
+{
+  "schema_version": 1,
+  "introductory_texts": [
+    {
+      "id": 1,
+      "title": "Nuestro esfuerzo",
+      "content": {
+        "text": "Ser Cristiano es ser semejante a Cristo. Confiando en Cristo, como un discípulo de Cristo. Tener la fe de Jesucristo. Tener el Espíritu de Cristo: el Espíritu Santo, y fuego.\n\nLlevar los frutos del Espíritu de Cristo. Amar a Cristo, mediante la obediencia a las palabras de Jesús el Cristo.\n\nHacer las obras de Cristo como un creyente en Cristo. Vivir en Cristo, vivir los mandamientos de Jesús el Cristo.\n\nPredicar a Cristo: la doctrina de Cristo. Vivir por fe en Cristo como fiel discípulo de Cristo. Vencer al mundo, a fin de permanecer en Cristo. Santificado para la obra de Cristo, lleno de la naturaleza divina de Cristo. Santo, libre de pecado, sellado y salvado para la gloria de Cristo. Que el esfuerzo supremo sea ganar almas, discípulos para Cristo, dejando el resultado del futuro a Cristo.\n\nCristo Jesús: nuestro todo en todo."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Grito de batalla",
+      "content": {
+        "text": "Ganar la juventud para Cristo."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lema adicional",
+      "content": {
+        "text": "Una escuela bíblica en cada hogar."
+      }
+    }
+  ],
+  "author_groups": [
+    {
+      "id": 1,
+      "type": "apostle",
+      "title": "Ap. Daddy John",
+      "start_year": 1938,
+      "end_year": 1953,
+      "entries": [
+        {
+          "id": 1,
+          "year": 1938,
+          "title": "1938",
+          "content": {
+            "text": "Cada miembro un obrero."
+          }
+        },
+        {
+          "id": 2,
+          "year": 1939,
+          "title": "1939",
+          "content": {
+            "text": "Sólo soy uno, pero soy uno. No lo puedo hacer todo, pero algo puedo hacer. Lo que puedo hacer, lo debo hacer, y lo que debo hacer, con la ayuda de Dios, lo haré."
+          }
+        },
+        {
+          "id": 3,
+          "year": 1940,
+          "title": "1940",
+          "content": {
+            "text": "¡Oh, Señor! Ayúdame a ganar un alma para Jesús hoy."
+          }
+        },
+        {
+          "id": 4,
+          "year": 1941,
+          "title": "1941",
+          "content": {
+            "text": "Piense antes de hablar. Hable del bien y ore contra el mal."
+          }
+        },
+        {
+          "id": 5,
+          "year": 1942,
+          "title": "1942",
+          "content": {
+            "text": "Llevad siempre en la mano derecha, dulce paz, para silenciar las lenguas viciosas."
+          }
+        },
+        {
+          "id": 6,
+          "year": 1943,
+          "title": "1943 - ¡Fíjese en la luz roja!",
+          "content": {
+            "text": "Cuando uno cree que ha llegado a un punto tan alto en la vida que piensa que no puede caer, ese es el tiempo cuando caerá."
+          }
+        },
+        {
+          "id": 7,
+          "year": 1944,
+          "title": "1944",
+          "content": {
+            "text": "Todo en acción para Dios. Buscar al perdido. Un esfuerzo mejor organizado. ¡Evangelizar al mundo!"
+          }
+        },
+        {
+          "id": 8,
+          "year": 1945,
+          "title": "1945",
+          "content": {
+            "text": "Vivir la vida de amor; la vida de Cristo; para poder ser cristiano en semejanza de Cristo."
+          }
+        },
+        {
+          "id": 9,
+          "year": 1946,
+          "title": "1946",
+          "content": {
+            "text": "Vive en santidad, sin la cual nadie verá al Señor. Para vivir en santidad y no gustar la muerte eterna, vive las palabras de Jesús, según San Juan 8:51, 52."
+          }
+        },
+        {
+          "id": 10,
+          "year": 1947,
+          "title": "1947 - Lema doble",
+          "content": {
+            "text": "¡Ganar discípulos para Cristo! Ninguno ha sido ganado para Cristo, hasta que esté deseoso de dedicar su vida y todo lo que posee, a la causa de Cristo.\n\nRecibir el Espíritu Santo, porque sin el Espíritu de Cristo no somos de Él. Rom. 8:9. Y con Él, redargüirá al mundo de pecado. San Juan 16:8."
+          }
+        },
+        {
+          "id": 11,
+          "year": 1948,
+          "title": "1948",
+          "content": {
+            "text": "Volver a la imagen de Dios, en la que fue creado el hombre al principio, porque como Él es, así somos nosotros en este mundo, si somos sus hijos (1 Juan 4:17). Y los que fueren tenidos por dignos de aquel siglo, son iguales a los ángeles. (San Lucas 20:35,36)."
+          }
+        },
+        {
+          "id": 12,
+          "year": 1949,
+          "title": "1949",
+          "content": {
+            "text": "El amor debe gobernar y reinar la paz, o estamos perdidos."
+          }
+        },
+        {
+          "id": 13,
+          "year": 1950,
+          "title": "1950",
+          "content": {
+            "text": "Hable suave, despacio y dulcemente, porque la blanda respuesta quita la ira. (Proverbios 15:1)."
+          }
+        },
+        {
+          "id": 14,
+          "year": 1951,
+          "title": "1951",
+          "content": {
+            "text": "Donde no hay fuego, hay poco Espíritu Santo. Manténgase en oración."
+          }
+        },
+        {
+          "id": 15,
+          "year": 1952,
+          "title": "1952",
+          "content": {
+            "text": "Despertar a justicia y dejar el pecado, ya que el pecado destruye el cuerpo y el alma."
+          }
+        },
+        {
+          "id": 16,
+          "year": 1953,
+          "title": "1953",
+          "content": {
+            "text": "No piense mal, no hable mal, no haga mal. Venza con el bien el mal."
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "apostle",
+      "title": "Ap. Ángel María Hernández",
+      "start_year": 1954,
+      "end_year": 1961,
+      "entries": [
+        {
+          "id": 1,
+          "year": 1954,
+          "title": "1954",
+          "content": {
+            "text": "«Acordaos de las palabras que os hablé, estando aún con vosotros», y aceptar las que el Espíritu Santo se ha dignado hablar después de éstas. No aceptar las últimas es rechazar las primeras."
+          }
+        },
+        {
+          "id": 2,
+          "year": 1955,
+          "title": "1955",
+          "content": {
+            "text": "Deje la soberbia. Limpie su corazón. Contender con los superiores y murmurar, es sorprenderle, Apocalipsis 22:11."
+          }
+        },
+        {
+          "id": 3,
+          "year": 1956,
+          "title": "1956 - Triple lema",
+          "content": {
+            "text": "Estudie, conozca y esté seguro de la voluntad de Dios, y déjese llevar por ella. No vaya solo a ninguna parte. Deje que el Señor le lleve seguro y sin tropiezo por el escabroso camino cristiano.\n\nAlcance la superación espiritual, viviendo, orando y esperando la orden divina, no directamente, sino a través de quien le dirige.\n\nHablar mal de un ungido de Dios, es hablar mal de sí mismo. Antes de deshonrarle, perdónele si le ha ofendido."
+          }
+        },
+        {
+          "id": 4,
+          "year": 1957,
+          "title": "1957",
+          "content": {
+            "text": "Como la segunda venida del Señor se acerca a paso por día, conduzcamos al pueblo santo con la humildad que es según la justicia de Dios. En todos los actos de justicia, una actitud humilde y compasiva, pero firme y ordenada. Ame al hermano, pero haga algo por su pecado, de otra manera está odiando su alma."
+          }
+        },
+        {
+          "id": 5,
+          "year": 1958,
+          "title": "1958",
+          "content": {
+            "text": "Año nuevo: vida nueva. Comience con el año, pero no envejezca con él. Renueve su vida de día en día. Viva la vida de Cristo, misteriosa y verdadera, encubierta para el mundo y revelada al hombre espiritual, quien goza y gozará de sus riquezas aquí y allá."
+          }
+        },
+        {
+          "id": 6,
+          "year": 1959,
+          "title": "1959",
+          "content": {
+            "text": "Evite accidentes espirituales, no diga pecado, diga: peligro espiritual, para que con toda precaución, escrúpulos y responsabilidad, lo pueda rechazar cuando fuere tentado. ¡Peligro!"
+          }
+        },
+        {
+          "id": 7,
+          "year": 1960,
+          "title": "1960",
+          "content": {
+            "text": "Los tiempos son peligrosos. Averiguad con diligencia vuestro estado espiritual. Examinaos a vosotros mismos si estáis en fe. La indiferencia: vuestra peor enemiga. Reconocimiento y confesión: éxito y triunfo."
+          }
+        },
+        {
+          "id": 8,
+          "year": 1961,
+          "title": "1961",
+          "content": {
+            "text": "La causa de Dios en la tierra es invalorable. Con todo el oro del mundo no se compra un alma. Para una causa grande, ¡una defensa grande! Coraza espiritual: «verdad, apresto, yelmo, escudo, la espada del Espíritu», y, ¡a luchar!"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "apostle",
+      "title": "Ap. Arturo Rangel",
+      "start_year": 1962,
+      "end_year": 1966,
+      "entries": [
+        {
+          "id": 1,
+          "year": 1962,
+          "title": "1962",
+          "content": {
+            "text": "El Espíritu Santo ha hecho distintas manifestaciones en distintos hombres y en distintas épocas. Sea tan entendido que las futuras manifestaciones desconocidas para usted, las crea tan ciertas como las primeras."
+          }
+        },
+        {
+          "id": 2,
+          "year": 1963,
+          "title": "1963",
+          "content": {
+            "text": "El heroísmo cristiano consiste en levantar a Cristo. Doblegarse ante las imposiciones es acto de cobardía. Los valientes heredarán el reino de los cielos."
+          }
+        },
+        {
+          "id": 3,
+          "year": 1964,
+          "title": "1964",
+          "content": {
+            "text": "Las grandes pruebas prodigan grandes bendiciones. Cuando se encuentre con ellas, no las rehuse: ellas hacen el examen de su vida espiritual y le dicen si usted tiene acceso al cielo. La prueba hará la prueba."
+          }
+        },
+        {
+          "id": 4,
+          "year": 1965,
+          "title": "1965",
+          "content": {
+            "text": "Cada nuevo año que aparece en la peregrinación cristiana, es un eslabón más en nuestra cadena de esfuerzo. Evite que se quiebre. Déle su temple para que alcance la consistencia debida y pueda trabarse del próximo."
+          }
+        },
+        {
+          "id": 5,
+          "year": 1966,
+          "title": "1966",
+          "content": {
+            "text": "Cuando vea obstáculos y oposiciones en su camino, diga: Una señal de triunfo se aproxima. Las grandes batallas tienen horas decisivas que obligan a usar todas las reservas. Use las suyas hasta adueñarse del triunfo que es la coronación de sus aspiraciones."
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "council",
+      "title": "Junta de Arzobispos",
+      "start_year": 1967,
+      "end_year": 1988,
+      "entries": [
+        {
+          "id": 1,
+          "year": 1967,
+          "title": "1967",
+          "content": {
+            "text": "Más unidos en fe y oración, más unidos en prueba y bendición, unidos en el gozo y en el dolor. Unidos en la tierra; unidos en el cielo. Unidos siempre. Siempre unidos."
+          }
+        },
+        {
+          "id": 2,
+          "year": 1968,
+          "title": "1968",
+          "content": {
+            "text": "Con sinceridad mantengamos nuestra fidelidad. Siempre decididos, pues ahora más que nunca ampliaremos nuestros horizontes espirituales, cruzaremos fronteras e iremos a otros continentes, con la verdad sublime y redentora. ¡Siempre con Cristo!"
+          }
+        },
+        {
+          "id": 3,
+          "year": 1969,
+          "title": "1969",
+          "content": {
+            "text": "Mantengamos en alto nuestra profesión de fe, reteniendo siempre la doctrina que hemos aprendido.\n\nCumplamos unidos con nuestro deber y no permitamos que otros hagan lo que nosotros podemos hacer."
+          }
+        },
+        {
+          "id": 4,
+          "year": 1970,
+          "title": "1970",
+          "content": {
+            "text": "Crucificados con Cristo, imitándole cada día con humildad de corazón, cumpliremos siempre con los deberes sagrados de la santa vocación."
+          }
+        },
+        {
+          "id": 5,
+          "year": 1971,
+          "title": "1971",
+          "content": {
+            "text": "¡Perdonar! ¡Siempre perdonar! Si perdonamos, seremos perdonados. Vivir una vida sin ofensas, es vivir en el temor de Dios y con visión del futuro. Pues en este camino que me lleva al cielo, me conduciré con el temor de Dios en mi corazón para tener sabiduría espiritual «Porque el temor de Dios es el principio de la sabiduría»."
+          }
+        },
+        {
+          "id": 6,
+          "year": 1972,
+          "title": "1972",
+          "content": {
+            "text": "Llevaré siempre en mi alma la paz de Cristo, y la practicaré con todos cada día. En paz me levantaré, y en paz me acostaré, para que el Príncipe de Paz habite en mí: «porque donde no hay paz, allí Cristo no está»."
+          }
+        },
+        {
+          "id": 7,
+          "year": 1973,
+          "title": "1973",
+          "content": {
+            "text": "Como nuestra obra es hacer el bien a todos los hombres, principalmente a los domésticos en la fe, trataré cada día de hacer un bien a mis hermanos para provocarles al amor, porque sino amo a mi hermano, ¿cómo podré amar a Dios?"
+          }
+        },
+        {
+          "id": 8,
+          "year": 1974,
+          "title": "1974",
+          "content": {
+            "text": "Conciencia sin remordimiento. Mente limpia. Corazón puro, para vencer las dificultades del camino. Pues la pureza vale más que la vida."
+          }
+        },
+        {
+          "id": 9,
+          "year": 1975,
+          "title": "1975",
+          "content": {
+            "text": "¡Oh, Padre! Pon guarda a nuestra boca y nuestra lengua hable sólo lo bueno. Ayúdanos a publicar tu alabanza y llegar a ser como fue el Nazareno."
+          }
+        },
+        {
+          "id": 10,
+          "year": 1976,
+          "title": "1976",
+          "content": {
+            "text": "Renunciando a la vanidad ilusoria de esta vida como Cristo renunció, viviremos puros y limpios con la aprobación de Dios."
+          }
+        },
+        {
+          "id": 11,
+          "year": 1977,
+          "title": "1977",
+          "content": {
+            "text": "Gracias, Señor, por el año que ha terminado. Y para el nuevo año que ha comenzado, te pedimos que nos enseñes de tal modo a contar nuestros días, que traigamos al corazón sabiduría."
+          }
+        },
+        {
+          "id": 12,
+          "year": 1978,
+          "title": "1978",
+          "content": {
+            "text": "Amo a esta iglesia, porque amo a Dios. Si amas a Dios, debes amar a esta iglesia, porque esta es la iglesia de Dios.\n\nDi siempre: Esta iglesia es mi vida, y mi vida es la iglesia del Señor."
+          }
+        },
+        {
+          "id": 13,
+          "year": 1979,
+          "title": "1979",
+          "content": {
+            "text": "Confianza en el Señor. Teniendo vestido y sustento, estaremos alegres sin afán ni temor, pues nuestros negocios son del Señor."
+          }
+        },
+        {
+          "id": 14,
+          "year": 1980,
+          "title": "1980",
+          "content": {
+            "text": "Cumple con tu deber y huye de la ociosidad, porque ella es madre de la indigencia material y espiritual. Trabaja para Dios y tu pago será la eterna felicidad."
+          }
+        },
+        {
+          "id": 15,
+          "year": 1981,
+          "title": "1981",
+          "content": {
+            "text": "En la obediencia está la bendición, como en el murmurar la destrucción. Porque la obediencia es mejor que el sacrificio, y como pecado de adivinación la rebelión."
+          }
+        },
+        {
+          "id": 16,
+          "year": 1982,
+          "title": "1982",
+          "content": {
+            "text": "Ayúdame, Señor, para estar preparado para el encuentro contigo. Que pueda tener tal consagración en mi vida, como si fuera el último día de mi partida."
+          }
+        },
+        {
+          "id": 17,
+          "year": 1983,
+          "title": "1983",
+          "content": {
+            "text": "Mi salvación vale más que todas las cosas de este mundo. Por tanto, renovaré mis votos cada día, delante de Dios, para cumplir lo que he prometido. Pues si aquí soy fiel, viviré allá con Él."
+          }
+        },
+        {
+          "id": 18,
+          "year": 1984,
+          "title": "1984",
+          "content": {
+            "text": "Como mis frutos dan testimonio de mi estado espiritual, oraré para ser justo y llevar frutos ante Dios y mis hermanos. Y el fruto de justicia se siembra en paz para aquellos que hacen paz."
+          }
+        },
+        {
+          "id": 19,
+          "year": 1985,
+          "title": "1985",
+          "content": {
+            "text": "Soy humano, débil y flaco, pero no descansaré en mi flaqueza, sino en la fortaleza de Dios, quien ha dicho que «su potencia en la flaqueza se perfecciona»."
+          }
+        },
+        {
+          "id": 20,
+          "year": 1986,
+          "title": "1986",
+          "content": {
+            "text": "Señor, en las pruebas haznos vencedores; en las luchas conquistadores. Y en las tribulaciones haznos victoriosos, para que en nuestro sueño y en nuestro despertar, estemos junto a Ti, nuestro Creador y Dios."
+          }
+        },
+        {
+          "id": 21,
+          "year": 1987,
+          "title": "1987",
+          "content": {
+            "text": "Estando perdido, me encontraste. Siendo pobre, me escogiste. Cuando nadie me miraba, me llamaste. Y estando muerto, vida me diste. Por eso Tú eres Salvador y Dios para mí; y nada ni nadie me podrán apartar de Ti."
+          }
+        },
+        {
+          "id": 22,
+          "year": 1988,
+          "title": "1988",
+          "content": {
+            "text": "Ayúdame, Señor, en la mañana cuando va a aclarar el nuevo día. Dame paz y fe, y llena mi alma de amor y compasión por las almas que se pierden. Así mi día terminará lleno de felicidad."
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "apostle",
+      "title": "Ap. Florentino Almeida",
+      "start_year": 1989,
+      "end_year": 2000,
+      "entries": [
+        {
+          "id": 1,
+          "year": 1989,
+          "title": "1989",
+          "content": {
+            "text": "Para morir bien; hay que vivir bien. En paz con Dios y con los hombres. Perdonando para ser perdonados. Caminando siempre con la doctrina en el alma."
+          }
+        },
+        {
+          "id": 2,
+          "year": 1990,
+          "title": "1990",
+          "content": {
+            "text": "Si testificas por Jesús, él también testificará por ti. Tu testimonio es muy importante. Di como él dijo: «Yo para esto he nacido, y para esto he venido al mundo, para dar testimonio a la verdad». ¡Yo siempre testificaré por Jesús!"
+          }
+        },
+        {
+          "id": 3,
+          "year": 1991,
+          "title": "1991",
+          "content": {
+            "text": "Mi lealtad para mi Maestro y Salvador Jesús. ¡Siempre! Mi lealtad para su Iglesia Santa. ¡Siempre! Mi lealtad para mis hermanos fieles. ¡Siempre! Con tu ayuda, ¡Oh, Señor! te seré fiel y leal hasta el final!"
+          }
+        },
+        {
+          "id": 4,
+          "year": 1992,
+          "title": "1992",
+          "content": {
+            "text": "Trabajo no por la comida que perece, sino por la que a vida eterna permanece. Y lo que haces, de hecho o de palabra, hazlo para el Señor.\n\nTrabajando por Cristo y por su iglesia, nos sentiremos llenos de felicidad y todo el Señor lo recompensará."
+          }
+        },
+        {
+          "id": 5,
+          "year": 1993,
+          "title": "1993",
+          "content": {
+            "text": "Si renuncias al mundo y sus glorias, la gloria de Dios ganarás. La negación propia, por Cristo recompensada será. Llega a la medida del hombre de fe, de todo tu corazón haz una completa renunciación."
+          }
+        },
+        {
+          "id": 6,
+          "year": 1994,
+          "title": "1994",
+          "content": {
+            "text": "Ama a tu iglesia, lucha por tu iglesia, trabaja por tu iglesia. Cristo compró la Iglesia con su sangre. Por su sangre eres salvo, y tendrás vida eterna. Tu lema de ayer, hoy y siempre, mantenlo actual: «Por Cristo y por su Iglesia, lucharé hasta el final»."
+          }
+        },
+        {
+          "id": 7,
+          "year": 1995,
+          "title": "1995",
+          "content": {
+            "text": "Con Cristo estoy juntamente crucificado y vivo no ya yo, sino Cristo en mí. Y si Él vive en mí, mis palabras y mis obras serán como las de Él. Todos verán a Cristo en mí, porque yo ando junto a Él y de su mano iré hasta el fin."
+          }
+        },
+        {
+          "id": 8,
+          "year": 1996,
+          "title": "1996",
+          "content": {
+            "text": "Es de sabios rectificar. Rectifiquemos ahora con toda la fe y con gran valor. Volvamos a nuestro primer amor."
+          }
+        },
+        {
+          "id": 9,
+          "year": 1997,
+          "title": "1997",
+          "content": {
+            "text": "Id y predicad es el mandato del gran Maestro. Estamos en los últimos tiempos, y hoy más que nunca debemos levantar nuestra antorcha de fe: ¡Por Cristo! ¡Por su iglesia! ¡por las almas! Trabajemos sin cesar, ¡vamos a evangelizar!"
+          }
+        },
+        {
+          "id": 10,
+          "year": 1998,
+          "title": "1998 - Lema doble",
+          "content": {
+            "text": "No hables mal de tu hermano. Quizás posea una virtud que tú no tienes. Ayúdalo con una de tus virtudes, orando y ayunando por él hasta que veas que es fiel.\n\nRecuerda: Hay tanto mal en los mejores de nosotros y tanto bien en los peores de nosotros, que a veces nos falta el tiempo para hablar del resto de nosotros."
+          }
+        },
+        {
+          "id": 11,
+          "year": 1999,
+          "title": "1999",
+          "content": {
+            "text": "¿Por qué tanta preocupación? ¿Por qué tanto afán? Las cosas vienen y se van. Confía en el que todo lo puede y vencerás. Pues tu futuro en Cristo seguro está."
+          }
+        },
+        {
+          "id": 12,
+          "year": 2000,
+          "title": "2000",
+          "content": {
+            "text": "Mi servicio con integridad para mi Dios. Mi fidelidad para su santa Iglesia; mi perdón para mis hermanos y mi prójimo. Mi gozo será siempre con este pueblo esforzado, porque las cuerdas me cayeron en lugares deleitosos y es hermosa la heredad que me ha tocado."
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "apostle",
+      "title": "Ap. Luis Cruz Lara",
+      "start_year": 2001,
+      "end_year": 2002,
+      "entries": [
+        {
+          "id": 1,
+          "year": 2001,
+          "title": "2001",
+          "content": {
+            "text": "¡Oh Dios! Que tu Espíritu Santo siga siendo siempre nuestro director eterno. Amén."
+          }
+        },
+        {
+          "id": 2,
+          "year": 2002,
+          "title": "2002",
+          "content": {
+            "text": "Juntos con Jesucristo, trabajaremos mirando hacia el futuro de la Iglesia."
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "apostle",
+      "title": "Ap. Joel Mondejar",
+      "start_year": 2003,
+      "end_year": 2004,
+      "entries": [
+        {
+          "id": 1,
+          "year": 2003,
+          "title": "2003",
+          "content": {
+            "text": "Frente a un mundo que se desmorona a causa de la incredulidad, nuestro único refugio es Jesucristo quien nos dijo: «…mas confiad, Yo he vencido al mundo»."
+          }
+        },
+        {
+          "id": 2,
+          "year": 2004,
+          "title": "2004",
+          "content": {
+            "text": "Que nuestra gran tarea sea ésta: «desarraigar de nuestros corazones toda raíz de amargura, para que Dios los llene de humildad, así como nos lo enseñó el Divino Nazareno»."
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "apostle",
+      "title": "Ap. Cecilio García",
+      "start_year": 2005,
+      "end_year": 2009,
+      "entries": [
+        {
+          "id": 1,
+          "year": 2005,
+          "title": "2005",
+          "content": {
+            "text": "Al acercarnos a los tiempos del fin crecen las corrientes que amenazan con destruir a los fieles; pidamos al Señor Jesucristo valor y fortaleza para que podamos vencer todas las obras del mal."
+          }
+        },
+        {
+          "id": 2,
+          "year": 2006,
+          "title": "2006",
+          "content": {
+            "text": "Nuestro objetivo siempre ha sido alcanzar la santidad, para lograr ésta, es imprescindible la unidad espiritual. El fruto de ambas cosas traerá total restauración y sanidad a la Iglesia."
+          }
+        },
+        {
+          "id": 3,
+          "year": 2007,
+          "title": "2007",
+          "content": {
+            "text": "Restaurar los valores morales y espirituales, dados por el Espíritu Santo a su Iglesia, es construir un futuro seguro; vivamos, pues, a la altura de los próceres del cristianismo, y así enseñaremos a los hombres la verdad del evangelio."
+          }
+        },
+        {
+          "id": 4,
+          "year": 2008,
+          "title": "2008",
+          "content": {
+            "text": "Nuestra iglesia necesita fortaleza espiritual, pidamos a Dios que nos dé más fe, más obediencia, más espíritu misionero, más alabanza y adoración, para lograr nuestra realización como pueblo escogido de Dios."
+          }
+        },
+        {
+          "id": 5,
+          "year": 2009,
+          "title": "2009",
+          "content": {
+            "text": "Fidelidad, consagración y abnegación, son pruebas inconfundibles de nuestro agradecimiento al Señor, por el privilegio de pertenecer a una iglesia fundada por obra del Espíritu Santo. Hagamos firme nuestra elección, confirmemos nuestra vocación."
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "apostle",
+      "title": "Ap. Miguel Rodríguez",
+      "start_year": 2010,
+      "end_year": 2023,
+      "entries": [
+        {
+          "id": 1,
+          "year": 2010,
+          "title": "2010",
+          "content": {
+            "text": "Para vivir una vida cristiana victoriosa, con evidencia de la plenitud del Espíritu Santo, hay una sola demanda: ¡CONSAGRACIÓN!"
+          }
+        },
+        {
+          "id": 2,
+          "year": 2011,
+          "title": "2011",
+          "content": {
+            "text": "Yo existo, y mi razón de ser es traer almas al conocimiento de Jesucristo. Evangelizar es mi profesión, ganar alguno para Cristo es mi gran empeño. Mi amor y gratitud lo manifestaré, rescatando a otros para el reino."
+          }
+        },
+        {
+          "id": 3,
+          "year": 2012,
+          "title": "2012",
+          "content": {
+            "text": "«¡Despierta, iglesia, despierta!, que Cristo está por regresar. Volvamos al ayuno y la oración, lectura bíblica y devoción; esto dará vida espiritual, amor y valor para la evangelización»."
+          }
+        },
+        {
+          "id": 4,
+          "year": 2013,
+          "title": "2013",
+          "content": {
+            "text": "Señor, las muchas ocupaciones y el afán de la vida nos hacen perder de vista la cercanía de tu regreso. Abre mis ojos espirituales, oh Jesús, al cumplimiento de las señales, y así vivir en santidad, consciente de tu venida."
+          }
+        },
+        {
+          "id": 5,
+          "year": 2014,
+          "title": "2014",
+          "content": {
+            "text": "Los días del fin han llegado, es tiempo de estar definidos, no confundidos. Hagamos a un lado la apatía y la inapetencia espiritual que acarrean muerte. Examinemos si nuestras lámparas espirituales conservan suficiente aceite y están encendidas. ¡Busquemos confirmación!"
+          }
+        },
+        {
+          "id": 6,
+          "year": 2015,
+          "title": "2015",
+          "content": {
+            "text": "La línea de separación entre el mundo y la iglesia, debe estar bien definida y mantenerse inviolable. Las modas y costumbres de esta sociedad caída no pueden ser las nuestras. Cuidado con el amor y el apego a las cosas terrenas que pronto perecerán. Di siempre: Yo soy peregrino aquí, estoy de paso, mi verdadero hogar y mis bienes están seguros en el cielo con mi Señor Jesús."
+          }
+        },
+        {
+          "id": 7,
+          "year": 2016,
+          "title": "2016",
+          "content": {
+            "text": "Para que el avivamiento siga renovando vidas y el fuego del Espíritu Santo siga purificando a su iglesia, hay una demanda: ¡VIVIR EN SANTIDAD!"
+          }
+        },
+        {
+          "id": 8,
+          "year": 2017,
+          "title": "2017",
+          "content": {
+            "text": "Los campos están blancos para la siega. ¡Es tiempo de cosechar! Hagamos un esfuerzo más por salvar a los perdidos. Ancianos, jóvenes y niños, ¡vamos todos a evangelizar!"
+          }
+        },
+        {
+          "id": 9,
+          "year": 2018,
+          "title": "2018",
+          "content": {
+            "text": "¡Jesús ya viene! Las Escrituras lo validan, las señales lo aseguran, los acontecimientos mundiales lo confirman. Por lo tanto, ocupado en la salvación de los perdidos, como principal negocio de mi vida, quiero siempre estar: ¡Voy a Evangelizar!"
+          }
+        },
+        {
+          "id": 10,
+          "year": 2019,
+          "title": "2019",
+          "content": {
+            "text": "Soy un creyente comprometido con la justa causa de mi Salvador Jesús, sus intereses están sobre los míos; su agenda es mi agenda, mis dones y talentos suyos son, y se los devuelvo a Él y a donde me necesite con gozo responderé: ¡Cuenta conmigo mi buen Señor, a tus órdenes siempre estaré!"
+          }
+        },
+        {
+          "id": 11,
+          "year": 2020,
+          "title": "2020",
+          "content": {
+            "text": "La incertidumbre se adueña de aquellos que dudan. Los cristianos verdaderos, llenos de fe, mantendrán en alto la antorcha encendida del fuego del Espíritu Santo que nunca se apagará. Con Cristo en tu vida te podrás levantar para decirle al mundo que la Iglesia de Dios proclama la verdad."
+          }
+        },
+        {
+          "id": 12,
+          "year": 2021,
+          "title": "2021",
+          "content": {
+            "text": "Aprender de Dios es la continua meta, obedecer su palabra el más grande anhelo, trabajar por Cristo será nuestra principal acción. Y consagramos a su servicio, la más grande bendición. Haciendo todo esto, pondremos crecer; Y el Espíritu Santo nos conducirá a un horizonte mejor, hasta el feliz encuentro con el Salvador."
+          }
+        },
+        {
+          "id": 13,
+          "year": 2022,
+          "title": "2022",
+          "content": {
+            "text": "¡Oh Dios! Al cumplir cien años de tu escogimiento especial, sentimos dicha y gratitud por ser parte del sacerdocio real: que Tú Espíritu guíe a reafirmar nuestro compromiso de amor, entregándonos con lealtad a Jesucristo nuestro Rey y Señor."
+          }
+        },
+        {
+          "id": 14,
+          "year": 2023,
+          "title": "2023",
+          "content": {
+            "text": "Salid, salid, hijos de Dios! Las buenas nuevas al mundo predicad. Al llamado de Jesucristo, decid: ¡Listo estoy! Tu mensaje llevaré y con el poder del Espíritu Santo, ¡Un alma para Cristo ganaré!"
+          }
+        }
+      ]
+    }
+  ]
+}
